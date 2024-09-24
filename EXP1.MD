@@ -32,6 +32,24 @@ def display():
         print("Enter a valid positive number.") 
 display() 
 ```
+## OUTPUT:
+```
+Enter a positive value for START: 1
+Enter a positive value for END: 4
+1 2 3 4
+
+Enter a positive value for START: -10 
+Enter a positive value for END: 5 
+Enter a valid positive number.
+
+Enter a positive value for START: hello 
+Enter a positive value for END: y
+Enter a valid positive number.
+
+Enter a positive value for START:
+Enter a positive value for END:
+Enter a valid positive number.
+```
 ## while...do:
 ```
 start=input("Enter a positive value for START: ") 
@@ -45,6 +63,24 @@ if start.isnumeric() and end.isnumeric():
 else: 
     print("Enter a valid positive number.")
 ```
+## Output:
+```
+Enter a positive value for START: 1 
+Enter a positive value for END: 4
+1 2 3 4
+
+Enter a positive value for START: -10 
+Enter a positive value for END: 5 
+Enter a valid positive number.
+
+Enter a positive value for START: abc 
+Enter a positive value for END: 100 
+Enter a valid positive number.
+
+Enter a positive value for START: 
+Enter a positive value for END: 
+Enter a valid positive number.
+```
 ## switch:
 ```
 def switch(): 
@@ -57,6 +93,20 @@ def switch():
         print("Enter a valid number.") 
 
 switch() 
+```
+## Output:
+```
+Enter a value for N: 1 
+odd
+
+Enter a value for N: -10 
+even
+
+Enter a value for N: hello 
+Enter a valid number.
+
+Enter a value for N:
+Enter a valid number.
 ```
 ## if..else:
 ```
@@ -78,6 +128,24 @@ def compare():
 compare()
 
 ```
+## Output:
+```
+Enter a value for A: 1 
+Enter a value for B: 1 
+A is equal to B.
+
+Enter a value for A: -10 
+Enter a value for B: 5 
+B is greater than A.
+
+Enter a value for A: hello 
+Enter a value for B: y 
+Enter a valid number.
+
+Enter a value for A:
+Enter a value for B:
+Enter a valid number.
+```
 ## for:
 ```
 def iterate(): 
@@ -87,13 +155,17 @@ def iterate():
 iterate()
 
 ```
-### Output:
-## do...while:
+## Output:
+```
+Enter a string: say 
+115 97 121
 
+Enter a string: 1543 
+49 53 52 51
 
+Enter a string:
 
-
-
+```
 
 
 ### Result:
